@@ -4,6 +4,8 @@
 @import "footer_mainPage.css";
 @import "nav_mainPage.css";
 
+@import "card.css";
+
 body {
   line-height: 1.6;
   /* font-family: "Varela Round", sans-serif; */
