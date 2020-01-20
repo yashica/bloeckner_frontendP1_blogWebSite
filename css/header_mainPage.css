@@ -1,4 +1,7 @@
 #header_mainPage {
+  background-image: url(../img/headerimage.jpg);
+  background-position: 50% 75%;
+  background-size: cover;
   background-color: maroon;
   text-align: center;
   line-height: 4em;
