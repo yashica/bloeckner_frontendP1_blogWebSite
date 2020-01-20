@@ -10,12 +10,15 @@
   width: 100%;
   border-radius: 10px 10px 0 0;
 }
-.card-container {
+/* .card-container {
   padding: 10px;
+} */
+.card-container {
+  padding: 2px 16px;
 }
 .card-link {
   text-decoration: none;
 }
 .card-text {
-  /* text-align: justify; */
+  text-align: justify;
 }
