@@ -1,4 +1,4 @@
-#content_mainPage {
+#content_mainpage {
   background-color: aqua;
   display: flex;
   flex-direction: row;
@@ -7,6 +7,6 @@
   padding: 10px 50px 20px;
 }
 
-.cardContainer {
+.card-container {
   padding: 2px 16px;
 }

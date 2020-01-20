@@ -4,7 +4,7 @@
 }
 
 /* main layout */
-#container_mainPage {
+#container_mainpage {
   display: grid;
   grid-template-columns: 200px repeat(5, minmax(100px, 1fr));
   grid-template-rows: minmax(100px, 2fr) 4fr minmax(100px, 1fr);
@@ -13,15 +13,15 @@
     "nav cnt cnt cnt cnt cnt"
     "ftr ftr ftr ftr ftr ftr";
 }
-#header_mainPage {
+#header_mainpage {
   grid-area: hdr;
 }
-#nav_mainPage {
+#nav_mainpage {
   grid-area: nav;
 }
-#content_mainPage {
+#content_mainpage {
   grid-area: cnt;
 }
-#footer_mainPage {
+#footer_mainpage {
   grid-area: ftr;
 }
