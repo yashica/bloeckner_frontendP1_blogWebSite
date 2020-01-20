@@ -3,3 +3,9 @@
 @import "header_mainPage.css";
 @import "footer_mainPage.css";
 @import "nav_mainPage.css";
+
+body {
+  line-height: 1.6;
+  /* font-family: "Varela Round", sans-serif; */
+  font-family: "Open Sans", sans-serif;
+}
