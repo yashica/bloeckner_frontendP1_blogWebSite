@@ -1,0 +1,27 @@
+/* main layout testing*/
+* {
+  border: 1px solid orangered !important;
+}
+
+/* main layout */
+#container_mainPage {
+  display: grid;
+  grid-template-columns: 200px repeat(5, minmax(100px, 1fr));
+  grid-template-rows: minmax(100px, 2fr) 4fr minmax(100px, 1fr);
+  grid-template-areas:
+    "hdr hdr hdr hdr hdr hdr"
+    "nav cnt cnt cnt cnt cnt"
+    "ftr ftr ftr ftr ftr ftr";
+}
+#header_mainPage {
+  grid-area: hdr;
+}
+#nav_mainPage {
+  grid-area: nav;
+}
+#content_mainPage {
+  grid-area: cnt;
+}
+#footer_mainPage {
+  grid-area: ftr;
+}
