@@ -17,7 +17,7 @@
 #container_mainpage {
   display: grid;
   grid-template-columns: repeat(8, minmax(100px, 1fr));
-  grid-template-rows: minmax(100px, 2fr) 20px 6fr minmax(100px, 1fr);
+  grid-template-rows: minmax(100px, 2fr) auto 6fr minmax(100px, 1fr);
   grid-template-areas:
     "hdr hdr hdr hdr hdr hdr hdr hdr"
     "nav nav nav nav nav nav nav nav"

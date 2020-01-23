@@ -1,5 +1,55 @@
-.navbar-item {
+.navbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  background-color: #333;
+  height: auto;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+/* deafault: float left
+      .navbar-item {
+        float: right;
+      } */
+/* with class float-right: float right (overwrites default, as defined later)*/
+/* .float-right {
+        float: right;
+      } */
+
+.navbar-item {
+  float: right;
+  overflow: hidden;
+  list-style-type: none;
+  /*   margin: 0;
+  padding: 0; */
+}
+
+.navbar-link {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* separators */
+li:not(:first-child) {
+  border-right: 1px solid #bbb;
+}
+
+.navbar-link:hover {
+  background-color: #111;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar-item {
+    float: none;
+  }
+  /* separators */
+  li:not(:first-child) {
+    border-right: 0;
+    border-top: 1px solid #bbb;
+  }
 }
