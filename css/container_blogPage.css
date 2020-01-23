@@ -1,0 +1,25 @@
+.container_blogpage {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: minmax(100px, 2fr) 20px 6fr minmax(100px, 1fr);
+  grid-template-areas:
+    "hdr hdr hdr hdr hdr"
+    "nav nav nav nav nav"
+    "blg blg blg inf inf"
+    "ftr ftr ftr ftr ftr";
+}
+.header_blogpage {
+  grid-area: hdr;
+}
+.nav_blogpage {
+  grid-area: nav;
+}
+.content_blogpage {
+  grid-area: blg;
+}
+.authorinfo {
+  grid-area: inf;
+}
+.footer_blogpage {
+  grid-area: ftr;
+}

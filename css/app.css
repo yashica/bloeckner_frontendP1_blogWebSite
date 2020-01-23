@@ -1,3 +1,5 @@
+@import "base.css";
+
 @import "container_mainPage.css";
 @import "content_mainPage.css";
 @import "header_mainPage.css";
@@ -5,19 +7,3 @@
 @import "nav_mainPage.css";
 
 @import "card.css";
-
-body {
-  line-height: 1.6;
-  /* font-family: "Varela Round", sans-serif; */
-  font-family: "Open Sans", sans-serif;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  display: block;
-  font-weight: bold;
-}
