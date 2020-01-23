@@ -6,3 +6,12 @@
   text-align: center;
   line-height: 4em;
 }
+
+.header_blogpage {
+  background-image: url(../img/header.jpg);
+  background-position: 50% 75%;
+  background-size: cover;
+  background-color: maroon;
+  text-align: center;
+  line-height: 4em;
+}

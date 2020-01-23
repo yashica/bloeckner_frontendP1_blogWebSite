@@ -21,9 +21,19 @@
   grid-template-areas:
     "hdr hdr hdr hdr hdr hdr hdr hdr"
     "nav nav nav nav nav nav nav nav"
-    "cnt cnt cnt cnt cnt cnt cnt cnt"
+    " .  cnt cnt cnt cnt cnt cnt  . "
     "ftr ftr ftr ftr ftr ftr ftr ftr";
 }
+@media screen and (max-width: 600px) {
+  #content_mainpage {
+    grid-template-areas:
+      "hdr hdr hdr hdr hdr hdr hdr hdr"
+      "nav nav nav nav nav nav nav nav"
+      "cnt cnt cnt cnt cnt cnt cnt cnt"
+      "ftr ftr ftr ftr ftr ftr ftr ftr";
+  }
+}
+
 #header_mainpage {
   grid-area: hdr;
 }
