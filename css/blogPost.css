@@ -1,5 +1,6 @@
 @import "base.css";
-@import "container_blogPage";
+@import "container_blogPage.css";
+@import "blogAside.css";
 
 div {
   display: block;

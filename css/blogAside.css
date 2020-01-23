@@ -1,0 +1,29 @@
+.infoandcontact {
+  display: flex;
+  flex-direction: column;
+  column-gap: 20px;
+}
+
+.authorinfo {
+  display: flex;
+  flex-direction: column;
+  column-gap: 10px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  column-gap: 10px;
+}
+
+.share {
+  display: flex;
+  flex-direction: column;
+  column-gap: 10px;
+}
+
+.share-btns {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+}
