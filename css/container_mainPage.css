@@ -1,35 +1,19 @@
-/* main layout testing*/
-/* 
-* {
-  border: 1px solid orangered !important;
-} */
-
-/* main layout */
-/* #container_mainpage {
-  display: grid;
-  grid-template-columns: 200px repeat(5, minmax(100px, 1fr));
-  grid-template-rows: minmax(100px, 2fr) 4fr minmax(100px, 1fr);
-  grid-template-areas:
-    "hdr hdr hdr hdr hdr hdr"
-    "nav cnt cnt cnt cnt cnt"
-    "ftr ftr ftr ftr ftr ftr";
-} */
 #container_mainpage {
   display: grid;
   grid-template-columns: repeat(8, minmax(100px, 1fr));
-  grid-template-rows: minmax(100px, 2fr) auto 6fr minmax(100px, 1fr);
+  grid-template-rows: minmax(100px, 2fr) auto auto minmax(100px, 1fr);
   grid-template-areas:
     "hdr hdr hdr hdr hdr hdr hdr hdr"
     "nav nav nav nav nav nav nav nav"
-    " .  cnt cnt cnt cnt cnt cnt  . "
+    "cnt cnt cnt cnt cnt cnt cnt cnt"
     "ftr ftr ftr ftr ftr ftr ftr ftr";
 }
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 900px) {
   #content_mainpage {
     grid-template-areas:
       "hdr hdr hdr hdr hdr hdr hdr hdr"
       "nav nav nav nav nav nav nav nav"
-      "cnt cnt cnt cnt cnt cnt cnt cnt"
+      " .  cnt cnt cnt cnt cnt cnt  . "
       "ftr ftr ftr ftr ftr ftr ftr ftr";
   }
 }

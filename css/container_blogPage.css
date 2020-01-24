@@ -1,6 +1,6 @@
 .container_blogpage {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, minmax(80, 1fr)); /*repeat(4, 1fr);*/
   grid-template-rows: minmax(100px, 2fr) auto 6fr minmax(100px, 1fr);
   /*   grid-template-rows: minmax(100px, 2fr) 20px 6fr minmax(100px, 1fr) minmax(
       50px,

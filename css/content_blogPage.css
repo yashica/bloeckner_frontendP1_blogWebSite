@@ -1,5 +1,9 @@
-div {
-  display: block;
+.blogpost {
+  padding: 2rem;
+}
+
+.infoandcontact {
+  padding: 2rem;
 }
 
 .blog-author {
@@ -10,9 +14,9 @@ div {
   align-items: center;
 }
 
-.author-img {
+.author-icon {
   width: 50px;
   height: 50px;
-  /*padding-right: 10px;*/
+  padding-right: 10px;
   border-radius: 50%;
 }
