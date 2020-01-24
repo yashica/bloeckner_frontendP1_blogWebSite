@@ -10,11 +10,8 @@
   width: 100%;
   border-radius: 10px 10px 0 0;
 }
-/* .card-container {
-  padding: 10px;
-} */
 .card-container {
-  padding: 2px 16px;
+  padding: 0; /*2px 16px;*/
 }
 .card-link {
   text-decoration: none;
