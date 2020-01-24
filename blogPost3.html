@@ -11,13 +11,13 @@
       name="description"
       content="Udacity project 1: Personal Blog Website"
     />
-    <link rel="stylesheet" href="css/blogPost.css" />
+    <link rel="stylesheet" href="css/blogPage.css" />
   </head>
   <body>
     <!-- container for blogpage layout-->
     <div class="container_blogpage">
       <!-- blogpage header area-->
-      <header class="header_blogpage">
+      <header class="pageheader">
         <h1 id="siteHeader_mainpage">
           <span class="c_alt1">K</span>inder<span class="c_alt1">K</span>unst
           <span class="c_alt2">&</span> <span class="c_alt1">K</span>üchen<span
@@ -28,7 +28,7 @@
       </header>
 
       <!-- navigation area -->
-      <nav class="navbar">
+      <nav id="nav_mainpage" class="navbar">
         <li class="navbar-item">
           <a class="navbar-link active" href="index.html">Home</a>
         </li>
@@ -36,10 +36,10 @@
           <a class="navbar-link" href="#blog">Blog</a>
         </li>
         <li class="navbar-item">
-          <a class="navbar-link" href="#info">Info</a>
+          <a class="navbar-link" href="info.html">Info</a>
         </li>
         <li class="navbar-item">
-          <a class="navbar-link" href="#contact">Kontakt</a>
+          <a class="navbar-link" href="contact.html">Kontakt</a>
         </li>
       </nav>
 
@@ -97,7 +97,9 @@
             <section class="contact">
               <h3>Kontaktiere uns</h3>
               <p>Wenn Du Anregungen oder Kritik hast oder uns einfach nur schreiben möchtest, bitte kontaktiere uns gerne!</p>
-              <button class="btn btn-contact">Kontakt</button>
+              <a class="btn-link" href="contact.html">
+                <button class="btn btn-contact">Kontakt</button>
+              </a>
             </section>
             <section class="share">
               <h3>Teile diesen Beitrag</h3>

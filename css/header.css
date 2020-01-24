@@ -1,0 +1,7 @@
+.pageheader {
+  background-image: url(../img/header.jpg);
+  background-position: 50% 75%;
+  background-size: cover;
+  text-align: center;
+  line-height: 4em;
+}
