@@ -20,3 +20,85 @@
   padding-right: 10px;
   border-radius: 50%;
 }
+
+.blogimg_l {
+  width: 100%;
+  height: auto;
+}
+
+/* .blogimg_l {
+  width: 25%;
+  height: auto;
+}
+
+.blogimg_m {
+  width: 200px;
+  height: 200px;
+}
+
+.blogimg_s {
+  width: 100px;
+  height: 100px;
+} */
+
+.blogpost {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  /*grid-template-rows: minmax(100px, 2fr) auto 6fr minmax(100px, 1fr);*/
+  /*   grid-template-rows: minmax(100px, 2fr) 20px 6fr minmax(100px, 1fr) minmax(
+      50px,
+      1fr
+    ); */
+  grid-template-areas:
+    "intr intr intr intr"
+    "fig1 fig1 txt1 txt1"
+    "fig2 fig2 txt2 txt2"
+    "cap3 cap3 cap3 cap3"
+    "txt3 txt3 txt3 txt3"
+    "fi3a fi3b fi3c fi3d";
+}
+
+.blog-intro {
+  grid-area: intr;
+}
+.blog3_figure1 {
+  grid-area: fig1;
+}
+.blog3_txt1 {
+  grid-area: txt1;
+}
+.blog3_figure2 {
+  grid-area: fig2;
+}
+.blog3_txt2 {
+  grid-area: txt2;
+}
+.blog3_caption3 {
+  grid-area: cap3;
+}
+.blog3_txt3 {
+  grid-area: txt3;
+}
+.blog3_figure3a {
+  grid-area: fi3a;
+}
+.blog3_figure3b {
+  grid-area: fi3b;
+}
+.blog3_figure3c {
+  grid-area: fi3c;
+}
+.blog3_figure3d {
+  grid-area: fi3d;
+}
+
+/*
+    "img txt txt txt"
+    "img txt txt txt"
+    "txt txt txt txt"
+    "img img img img"
+    "txt txt txt txt"
+    "img img img img"
+    "txt txt txt txt";
+*/
