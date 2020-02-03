@@ -1,3 +1,14 @@
+.container_blogpage {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(80, 1fr));
+  grid-template-rows: minmax(100px, 2fr) auto 6fr minmax(100px, 1fr);
+  grid-template-areas:
+    "hdr hdr hdr hdr"
+    "nav nav nav nav"
+    "blg blg blg inf"
+    "ftr ftr ftr ftr";
+}
+
 .pageheader {
   grid-area: hdr;
 }
@@ -18,52 +29,23 @@
   grid-area: ftr;
 }
 
-@media (max-width: 320px) {
+.infoandcontact {
+  border-top: none;
+  border-left: 2px solid #bbb;
+}
+
+@media screen and (max-width: 600px) {
   .container_blogpage {
     grid-template-rows: minmax(100px, 2fr) auto auto auto minmax(100px, 1fr);
     grid-template-areas:
-      "hdr"
-      "nav"
-      "blg"
-      "inf"
-      "ftr";
-  }
-  .infoandcontact {
-    border-top: 2px solid #bbb;
-    border: none;
-  }
-}
-
-@media (min-width: 901px) {
-  .container_blogpage {
-    display: grid;
-    grid-template-columns: repeat(5, minmax(80, 1fr)); /*repeat(4, 1fr);*/
-    grid-template-rows: minmax(100px, 2fr) auto 6fr minmax(100px, 1fr);
-    grid-template-areas:
-      "hdr hdr hdr hdr hdr"
-      "nav nav nav nav nav"
-      "blg blg blg blg inf"
-      "ftr ftr ftr ftr ftr";
-  }
-  .infoandcontact {
-    border-top: none;
-    border-left: 2px solid #bbb;
-  }
-}
-
-@media (min-width: 600px) and (max-width: 900px) {
-  .container_blogpage {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(80, 1fr)); /*repeat(4, 1fr);*/
-    grid-template-rows: minmax(100px, 2fr) auto 6fr minmax(100px, 1fr);
-    grid-template-areas:
       "hdr hdr hdr hdr"
       "nav nav nav nav"
-      "blg blg blg inf"
+      "blg blg blg blg"
+      "inf inf inf inf"
       "ftr ftr ftr ftr";
   }
   .infoandcontact {
-    border-top: none;
-    border-left: 2px solid #bbb;
+    border-top: 2px solid #bbb;
+    border-left: none;
   }
 }

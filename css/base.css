@@ -19,15 +19,10 @@ h6 {
   font-weight: bold;
 }
 
-h3 {
-  margin-top: 3rem;
-  margin-bottom: 0rem;
-}
-
+h3,
 h4,
 h5,
 h6 {
-  margin-top: 2rem;
   margin-bottom: 0.5rem;
 }
 
@@ -52,6 +47,3 @@ header {
 footer {
   padding: 2rem;
 }
-
-/*teal
-darkslategray*/

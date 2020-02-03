@@ -1,18 +1,19 @@
 .infoandcontact {
   display: flex;
   flex-direction: column;
-  row-gap: 2rem;
 }
 
 .authorinfo {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 1rem;
 }
 
 .contact {
   display: flex;
   flex-direction: column;
+  margin-bottom: 1rem;
 }
 
 .share {
@@ -23,7 +24,7 @@
 .share-icon {
   width: 30px;
   height: 30px;
-  margin: 0.75rem 0rem;
+  margin: 0.5rem 0rem;
 }
 
 .share-btns {
