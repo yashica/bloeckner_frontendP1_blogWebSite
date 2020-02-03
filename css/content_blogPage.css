@@ -26,6 +26,26 @@
   height: auto;
 }
 
+.blogimg_m {
+  width: 50%;
+  height: auto;
+}
+
+blockquote {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-style: italic;
+}
+
+/* .imgrow {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+} */
+
 /* .blogimg_l {
   width: 25%;
   height: auto;
@@ -52,15 +72,25 @@
     ); */
   grid-template-areas:
     "intr intr intr intr"
+    "cap1 cap1 cap1 cap1"
     "fig1 fig1 txt1 txt1"
     "fig2 fig2 txt2 txt2"
     "cap3 cap3 cap3 cap3"
     "txt3 txt3 txt3 txt3"
-    "fi3a fi3b fi3c fi3d";
+    "fi3a fi3b fi3c fi3d"
+    "cap4 cap4 cap4 cap4"
+    "fi4a fi4a fi4b fi4b"
+    "txt4 txt4 txt4 txt4"
+    "cap5 cap5 cap5 cap5"
+    "txt5 txt5 txt5 txt5";
 }
 
 .blog-intro {
   grid-area: intr;
+}
+
+.blog3_caption1 {
+  grid-area: cap1;
 }
 .blog3_figure1 {
   grid-area: fig1;
@@ -74,6 +104,7 @@
 .blog3_txt2 {
   grid-area: txt2;
 }
+
 .blog3_caption3 {
   grid-area: cap3;
 }
@@ -91,6 +122,26 @@
 }
 .blog3_figure3d {
   grid-area: fi3d;
+}
+
+.blog3_caption4 {
+  grid-area: cap4;
+}
+.blog3_figure4a {
+  grid-area: fi4a;
+}
+.blog3_figure4b {
+  grid-area: fi4b;
+}
+.blog3_txt4 {
+  grid-area: txt4;
+}
+
+.blog3_caption5 {
+  grid-area: cap5;
+}
+.blog3_txt5 {
+  grid-area: txt5;
 }
 
 /*
