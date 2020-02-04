@@ -1,5 +1,5 @@
 @media (max-width: 320px) {
-  .blogpost {
+  #blogpost3 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
@@ -19,7 +19,7 @@
   }
 }
 @media (min-width: 901px) {
-  .blogpost {
+  #blogpost3 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
@@ -39,7 +39,7 @@
   }
 }
 @media (min-width: 600px) and (max-width: 900px) {
-  .blogpost {
+  #blogpost3 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
@@ -59,7 +59,7 @@
   }
 }
 
-.blog-intro {
+#blog3-intro {
   grid-area: intr;
 }
 

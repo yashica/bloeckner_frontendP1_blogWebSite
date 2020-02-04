@@ -6,6 +6,13 @@
   padding: 2rem;
 }
 
+.blog-intro {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: flex-start;
+}
+
 .blog-author {
   display: flex;
   flex-direction: row;
