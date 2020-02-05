@@ -34,7 +34,7 @@
   border-left: 2px solid #bbb;
 }
 
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
   .container_blogpage {
     grid-template-rows: minmax(100px, 2fr) auto auto auto minmax(100px, 1fr);
     grid-template-areas:
