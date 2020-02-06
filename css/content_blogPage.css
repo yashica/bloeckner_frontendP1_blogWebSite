@@ -6,6 +6,17 @@
   padding: 2rem;
 }
 
+/*adjusted padding for two column layout on wider screens*/
+@media (min-width: 601px) and (max-width: 767px) {
+  .blogpost {
+    padding: 2rem 2.5vw 2rem 2vw;
+  }
+
+  .infoandcontact {
+    padding: 2rem 2vw 2rem 2.5vw;
+  }
+}
+
 .blog-intro {
   display: flex;
   flex-direction: column;

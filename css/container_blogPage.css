@@ -1,12 +1,46 @@
-.container_blogpage {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(80, 1fr));
-  grid-template-rows: minmax(100px, 2fr) auto 6fr minmax(100px, 1fr);
-  grid-template-areas:
-    "hdr hdr hdr hdr"
-    "nav nav nav nav"
-    "blg blg blg inf"
-    "ftr ftr ftr ftr";
+/*vertical main layout on small screens*/
+@media (max-width: 600px) {
+  .container_blogpage {
+    display: grid;
+    grid-template-columns: auto;
+    /*     grid-template-columns: repeat(4, 1fr) minmax(60, 1fr);
+ */ /* grid-template-columns: repeat(5, 1fr); */
+    /* grid-template-columns: repeat(5, minmax(80, 1fr)); */
+    grid-template-rows: minmax(100px, 2fr) auto 6fr minmax(100px, 1fr);
+    grid-template-areas:
+      "hdr"
+      "nav"
+      "blg"
+      "inf"
+      "ftr";
+  }
+  /*horizontal line separating blog content from info section*/
+  .infoandcontact {
+    border-top: 2px solid #bbb;
+    border-left: none;
+  }
+}
+
+/*horizontal main layout on wider screens*/
+@media (min-width: 601px) {
+  .container_blogpage {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) minmax(60, 1fr);
+    /* grid-template-columns: repeat(5, 1fr); */
+    /* grid-template-columns: repeat(5, minmax(80, 1fr)); */
+    grid-template-rows: minmax(100px, 2fr) auto 6fr minmax(100px, 1fr);
+    grid-template-areas:
+      "hdr hdr hdr hdr hdr"
+      "nav nav nav nav nav"
+      "blg blg blg blg inf"
+      "ftr ftr ftr ftr ftr";
+  }
+
+  /*vertical line separating blog content from info section*/
+  .infoandcontact {
+    border-top: none;
+    border-left: 2px solid #bbb;
+  }
 }
 
 .pageheader {
@@ -29,23 +63,18 @@
   grid-area: ftr;
 }
 
-.infoandcontact {
-  border-top: none;
-  border-left: 2px solid #bbb;
-}
-
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .container_blogpage {
-    grid-template-rows: minmax(100px, 2fr) auto auto auto minmax(100px, 1fr);
     grid-template-areas:
-      "hdr hdr hdr hdr"
-      "nav nav nav nav"
-      "blg blg blg blg"
-      "inf inf inf inf"
-      "ftr ftr ftr ftr";
+      "hdr hdr hdr hdr hdr"
+      "nav nav nav nav nav"
+      "blg blg blg blg blg"
+      "inf inf inf inf inf"
+      "ftr ftr ftr ftr ftr";
   }
   .infoandcontact {
     border-top: 2px solid #bbb;
     border-left: none;
   }
-}
+} */
+/* grid-template-rows: minmax(100px, 2fr) auto auto auto minmax(100px, 1fr); */

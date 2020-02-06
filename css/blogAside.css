@@ -9,6 +9,16 @@
   align-items: center;
   margin-bottom: 1rem;
 }
+.figure-author {
+  margin: none;
+  padding: none;
+  width: 100%;
+}
+
+.author-image {
+  width: 100%;
+  height: auto;
+}
 
 .contact {
   display: flex;
