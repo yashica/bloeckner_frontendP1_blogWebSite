@@ -47,3 +47,8 @@ header {
 footer {
   padding: 2rem;
 }
+figcaption {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 0.85rem;
+}
