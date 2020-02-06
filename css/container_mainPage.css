@@ -1,7 +1,8 @@
 #container_mainpage {
   display: grid;
   grid-template-columns: none;
-  grid-template-rows: minmax(100px, 2fr) auto auto minmax(100px, 1fr);
+  grid-template-rows: auto auto auto minmax(100px, 1fr);
+  /* grid-template-rows: minmax(100px, 2fr) auto auto minmax(100px, 1fr); */
   grid-template-areas:
     "hdr"
     "nav"
