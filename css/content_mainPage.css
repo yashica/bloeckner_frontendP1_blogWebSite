@@ -12,7 +12,6 @@
   #content_mainpage {
     display: flex;
     flex-direction: column;
-    flex-wrap: none;
     padding: 2rem;
   }
 }
