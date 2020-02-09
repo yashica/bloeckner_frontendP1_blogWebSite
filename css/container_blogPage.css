@@ -7,7 +7,7 @@
  */ /* grid-template-columns: repeat(5, 1fr); */
     /* grid-template-columns: repeat(5, minmax(80, 1fr)); */
     /*     grid-template-rows: minmax(100px, 2fr) auto 6fr minmax(100px, 1fr);*/
-    grid-template-rows: auto auto 6fr minmax(100px, 1fr);
+    grid-template-rows: auto auto auto minmax(100px, 1fr);
     grid-template-areas:
       "hdr"
       "nav"
@@ -30,7 +30,7 @@
     /* grid-template-columns: repeat(5, 1fr); */
     /* grid-template-columns: repeat(5, minmax(80, 1fr)); */
     /* grid-template-rows: minmax(100px, 2fr) auto 6fr minmax(100px, 1fr); */
-    grid-template-rows: auto auto 6fr minmax(100px, 1fr);
+    grid-template-rows: auto auto auto minmax(100px, 1fr);
     grid-template-areas:
       "hdr hdr hdr hdr hdr"
       "nav nav nav nav nav"
