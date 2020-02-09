@@ -13,7 +13,7 @@
   border-radius: 10px 10px 0 0;
 }
 .card-container {
-  padding: 0; /*2px 16px;*/
+  padding: 0;
 }
 .card-link {
   text-decoration: none;
@@ -22,7 +22,7 @@
   text-align: justify;
 }
 
-/* /*reduce space around cards for horizontal layout on medium wide screens*/
+/*reduce space around cards for horizontal layout on medium wide screens*/
 @media (min-width: 601px) and (max-width: 767px) {
   .card {
     padding: 0.5rem;

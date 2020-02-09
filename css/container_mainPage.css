@@ -2,14 +2,13 @@
   display: grid;
   grid-template-columns: none;
   grid-template-rows: auto auto auto minmax(100px, 1fr);
-  /* grid-template-rows: minmax(100px, 2fr) auto auto minmax(100px, 1fr); */
   grid-template-areas:
     "hdr"
     "nav"
     "cnt"
     "ftr";
 }
-/*slightly different layout for wide screens*/
+/*slightly different layout for wide screens: reduce width of content area*/
 @media screen and (min-width: 901px) {
   #content_mainpage {
     grid-template-columns: repeat(8, 1fr);

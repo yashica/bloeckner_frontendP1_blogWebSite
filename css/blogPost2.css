@@ -59,9 +59,6 @@
       "fig3 fig3 fig3 fig3"
       "tx3b tx3b tx3b tx3b";
   }
-  #tb3b {
-    margin-top: none;
-  }
 }
 @media (min-width: 901px) {
   #blogpost2 {
@@ -80,62 +77,10 @@
       "tx3a tx3a fig3 fig3"
       "tx3b tx3b fig3 fig3";
   }
-  #tb3b {
+  #tx3b {
     margin-top: none;
   }
 }
-
-/* @media (max-width: 320px) {
-  #blogpost2 {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: auto;
-    grid-template-areas:
-      "intr intr intr intr"
-      "cap1 cap1 cap1 cap1"
-      "fi1a fi1a txt1 txt1"
-      "fi1b fi1c txt1 txt1"
-      "cap2 cap2 cap2 cap2"
-      "txt2 txt2 txt2 txt2"
-      "fi2a fi2a fi2b fi2b"
-      "cap3 cap3 cap3 cap3"
-      "txt3 txt3 fig3 fig3";
-  }
-}
-@media (min-width: 901px) {
-  #blogpost2 {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: auto;
-    grid-template-areas:
-      "intr intr intr intr"
-      "cap1 cap1 cap1 cap1"
-      "fi1a fi1a txt1 txt1"
-      "fi1b fi1c txt1 txt1"
-      "cap2 cap2 cap2 cap2"
-      "txt2 txt2 txt2 txt2"
-      "fi2a fi2a fi2b fi2b"
-      "cap3 cap3 cap3 cap3"
-      "txt3 txt3 fig3 fig3";
-  }
-}
-@media (min-width: 600px) and (max-width: 900px) {
-  #blogpost2 {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: auto;
-    grid-template-areas:
-      "intr intr intr intr"
-      "cap1 cap1 cap1 cap1"
-      "fi1a fi1a txt1 txt1"
-      "fi1b fi1c txt1 txt1"
-      "cap2 cap2 cap2 cap2"
-      "txt2 txt2 txt2 txt2"
-      "fi2a fi2a fi2b fi2b"
-      "cap3 cap3 cap3 cap3"
-      "txt3 txt3 fig3 fig3";
-  }
-} */
 
 #blog2-intro {
   grid-area: intr;
@@ -172,9 +117,6 @@
 #blog2_caption3 {
   grid-area: cap3;
 }
-/* #blog2_txt3 {
-  grid-area: txt3;
-} */
 #blog2_txt3a {
   grid-area: tx3a;
 }
@@ -184,61 +126,3 @@
 #blog2_figure3 {
   grid-area: fig3;
 }
-
-/* @media (max-width: 320px) {
-  #blogpost2 {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: auto;
-    grid-template-areas:
-      "intr intr intr intr"
-      "cap1 cap1 cap1 cap1"
-      "fi1a fi1a fi1a fi1a"
-      "txt1 txt1 txt1 txt1"
-      "fi1b fi1b fi1c fi1c"
-      "cap2 cap2 cap2 cap2"
-      "txt2 txt2 txt2 txt2"
-      "fi2a fi2a fi2a fi2a"
-      "fi2b fi2b fi2b fi2b"
-      "cap3 cap3 cap3 cap3"
-      "tx3a tx3a tx3a tx3a"
-      "fig3 fig3 fig3 fig3"
-      "tx3b tx3b tx3b tx3b";
-  }
-}
-@media (min-width: 321px) and (max-width: 600px) {
-  #blogpost2 {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: auto;
-    grid-template-areas:
-      "intr intr intr intr"
-      "cap1 cap1 cap1 cap1"
-      "fi1a fi1a txt1 txt1"
-      "fi1b fi1c txt1 txt1"
-      "cap2 cap2 cap2 cap2"
-      "txt2 txt2 txt2 txt2"
-      "fi2a fi2a fi2b fi2b"
-      "cap3 cap3 cap3 cap3"
-      "tx3a tx3a fig3 fig3"
-      "tx3b tx3b fig3 fig3";
-  }
-}
-@media (min-width: 601px) {
-  #blogpost2 {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: auto;
-    grid-template-areas:
-      "intr intr intr intr"
-      "cap1 cap1 cap1 cap1"
-      "fi1a fi1a txt1 txt1"
-      "fi1b fi1c txt1 txt1"
-      "cap2 cap2 cap2 cap2"
-      "txt2 txt2 txt2 txt2"
-      "fi2a fi2a fi2b fi2b"
-      "cap3 cap3 cap3 cap3"
-      "tx3a tx3a fig3 fig3"
-      "tx3b tx3b fig3 fig3";
-  }
-} */
