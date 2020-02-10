@@ -87,22 +87,6 @@
       "cap3 cap3 cap3 cap3"
       "txt3 txt3 txt3 txt3"
       "fi3a fi3a fi3b fi3b";
-    /*       "intr intr intr intr"
-      "cap1 cap1 cap1 cap1"
-      "txt1 txt1 txt1 txt1"
-      "cap2 cap2 cap2 cap2"
-      "tx2a tx2a tx2a tx2a"
-      "tx2b tx2b tx2b tx2b"
-      "ifi2 ifi2 ifi2 ifi2"
-      "fi2a fi2b fi2c fi2d"
-      "tx2c tx2c tx2c tx2c"
-      "tx2c tx2c tx2c tx2c"
-      "cap3 cap3 cap3 cap3"
-      "txt3 txt3 txt3 txt3"
-      "fi3a fi3b fi3c fi3d"
-      "cap3 cap3 cap3 cap3"
-      "txt3 txt3 txt3 txt3"
-      "fi3a fi3a fi3b fi3b"; */
   }
 }
 
@@ -160,59 +144,3 @@
 .menulistitem {
   list-style-type: upper-roman;
 }
-
-/* "intr intr intr intr"
-      "cap1 cap1 cap1 cap1"
-      "txt1 txt1 txt1 txt1"
-      "cap2 cap2 cap2 cap2"
-      "tx2a tx2a tx2a tx2a"
-      "tx2b tx2b tx2b tx2b"
-      "tx2c tx2c tx2c tx2c"
-      "cap3 cap3 cap3 cap3"
-      "txt3 txt3 txt3 txt3"
-      "fi3a fi3a fi3a fi3a"
-      "fi3b fi3b fi3b fi3b"
-      "fi3c fi3c fi3c fi3c"
-      "fi3d fi3d fi3d fi3d"
-      "cap4 cap4 cap4 cap4"
-      "fi4a fi4a fi4a fi4a"
-      "fi4b fi4b fi4b fi4b"
-      "txt4 txt4 txt4 txt4"
-      "cap5 cap5 cap5 cap5"
-      "txt5 txt5 txt5 txt5"; */
-
-/*       "intr intr intr intr"
-      "cap1 cap1 cap1 cap1"
-      "txt1 txt1 txt1 txt1"
-      "cap2 cap2 cap2 cap2"
-      "tx2a tx2a tx2a tx2a"
-      "tx2b tx2b tx2b tx2b"
-      "tx2c tx2c tx2c tx2c"
-      "cap3 cap3 cap3 cap3"
-      "txt3 txt3 txt3 txt3"
-      "fi3a fi3a fi3b fi3b"
-      "fi3c fi3c fi3d fi3d"
-      "cap4 cap4 cap4 cap4"
-      "fi4a fi4a fi4a fi4a"
-      "fi4b fi4b fi4b fi4b"
-      "txt4 txt4 txt4 txt4"
-      "cap5 cap5 cap5 cap5"
-      "txt5 txt5 txt5 txt5"; */
-
-/* "intr intr intr intr"
-      "cap1 cap1 cap1 cap1"
-      "txt1 txt1 txt1 txt1"
-      "cap2 cap2 cap2 cap2"
-      "tx2a tx2a tx2a tx2a"
-      "tx2b tx2b tx2b tx2b"
-      "tx2c tx2c tx2c tx2c"
-      "cap3 cap3 cap3 cap3"
-      "txt3 txt3 txt3 txt3"
-      "fi3a fi3a fi3b fi3b"
-      "fi3c fi3c fi3d fi3d"
-      "cap4 cap4 cap4 cap4"
-      "fi4a fi4a fi4a fi4a"
-      "fi4b fi4b fi4b fi4b"
-      "txt4 txt4 txt4 txt4"
-      "cap5 cap5 cap5 cap5"
-      "txt5 txt5 txt5 txt5"; */
