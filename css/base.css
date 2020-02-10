@@ -52,3 +52,18 @@ figcaption {
   font-style: italic;
   font-size: 0.85rem;
 }
+
+.txt_italic {
+  font-style: italic;
+}
+.txt_bold {
+  font-weight: bold;
+}
+.txt_underlined {
+  text-decoration: underline;
+}
+
+.hidden_link {
+  text-decoration: none;
+  color: black;
+}
