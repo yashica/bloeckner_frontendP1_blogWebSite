@@ -22,28 +22,3 @@
     padding: 2rem;
   }
 }
-
-/*
-#content_mainpage {
-  display: flex;
-  flex-direction: row;
-  align-items: stretch;
-  justify-content: center;
-  padding: 2rem;
-}
-
-@media (min-width: 321px) and (max-width: 600px) {
-  #content_mainpage {
-    padding: 2rem 1rem;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  #content_mainpage {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: none;
-    padding: 2rem 1rem;
-  }
-}
-*/
